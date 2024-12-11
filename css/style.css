@@ -1,0 +1,157 @@
+@font-face {
+    font-family: 'Microgramma';
+    src: url(../fonts/Microgramma-D-Bold-Extended.ttf) format("truetype");
+}
+
+.first {
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    position: relative;
+}
+
+.first2 {
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    position: relative;
+}
+
+.first3 {
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    position: relative;
+}
+
+.first4 {
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    position: relative;
+}
+
+.first5 {
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    position: relative;
+}
+
+.first6 {
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    position: relative;
+}
+
+.title {
+    font-family: 'Microgramma';
+    font-size: 5em;
+    color: #FFEA8C;
+    position: relative;
+    left: 50%;
+    top: 10%;
+    transform:translate(-50%,-10%);
+    letter-spacing: 0.3px;
+    text-align: center;
+    width: 90%;
+}
+
+.title2 {
+    font-family: 'Microgramma';
+    font-size: 5em;
+    color: #FFEA8C;
+    position: relative;
+    left: 50%;
+    top: 1%;
+    transform:translate(-50%,1%);
+    letter-spacing: 0.3px;
+    text-align: center;
+    width: 90%;
+}
+
+.title3 {
+    font-family: 'Microgramma';
+    font-size: 5em;
+    color: #FFEA8C;
+    position: relative;
+    left: 50%;
+    top: 1%;
+    transform:translate(-50%,1%);
+    letter-spacing: 0.3px;
+    text-align: center;
+    width: 90%;
+}
+
+.title4 {
+    font-family: 'Microgramma';
+    font-size: 5em;
+    color: #FFEA8C;
+    position: relative;
+    left: 50%;
+    top: 10%;
+    transform:translate(-50%,-10%);
+    letter-spacing: 0.3px;
+    text-align: center;
+    width: 90%;
+}
+
+.title5 {
+    font-family: 'Microgramma';
+    font-size: 5em;
+    color: #FFEA8C;
+    position: relative;
+    left: 50%;
+    top: 5%;
+    transform:translate(-50%,-5%);
+    letter-spacing: 0.3px;
+    text-align: center;
+    width: 90%;
+}
+
+.title6 {
+    font-family: 'Microgramma';
+    font-size: 5em;
+    color: #FFEA8C;
+    position: relative;
+    left: 50%;
+    top: 5%;
+    transform:translate(-50%,-5%);
+    letter-spacing: 0.3px;
+    text-align: center;
+    width: 90%;
+}
+
+.image {
+    width: 864px;
+    height: 472px;
+    background: url(../images/Imax_Screen.jpg) center no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -60%);
+}
+
+.image2 {
+    width: 589px;
+    height: 600px;
+    background: url(../images/PrintSize.jpg) center no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -10%);
+}
+
+.image3 {
+    width: 750px;
+    height: 524.375px;
+    background: url(../images/oppenheimerimax_2_small.jpg) center no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 50%;
+    top: 35%;
+    transform: translate(-50%, -35%);
+}

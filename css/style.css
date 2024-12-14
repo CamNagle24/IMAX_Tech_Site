@@ -45,6 +45,55 @@
     position: relative;
 }
 
+.first7 {
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    position: relative;
+}
+
+.first8 {
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    position: relative;
+}
+
+.first9 {
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    position: relative;
+}
+
+.first10 {
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    position: relative;
+}
+
+.first11 {
+    width: 100vw;
+    height: 200vh;
+    background: black;
+    position: relative;
+}
+
+.first12 {
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    position: relative;
+}
+
+.first13 {
+    width: 100vw;
+    height: 150vh;
+    background: black;
+    position: relative;
+}
+
 .title {
     font-family: 'Microgramma';
     font-size: 5em;
@@ -123,6 +172,84 @@
     width: 90%;
 }
 
+.title7 {
+    font-family: 'Microgramma';
+    font-size: 5em;
+    color: #FFEA8C;
+    position: relative;
+    left: 50%;
+    top: 5%;
+    transform:translate(-50%,-5%);
+    letter-spacing: 0.3px;
+    text-align: center;
+    width: 90%;
+}
+
+.title8 {
+    font-family: 'Microgramma';
+    font-size: 5em;
+    color: #FFEA8C;
+    position: relative;
+    left: 50%;
+    top: 5%;
+    transform:translate(-50%,-5%);
+    letter-spacing: 0.3px;
+    text-align: center;
+    width: 90%;
+}
+
+.title9 {
+    font-family: 'Microgramma';
+    font-size: 5em;
+    color: #FFEA8C;
+    position: relative;
+    left: 50%;
+    top: 5%;
+    transform:translate(-50%,-5%);
+    letter-spacing: 0.3px;
+    text-align: center;
+    width: 90%;
+}
+
+.title10 {
+    font-family: 'Microgramma';
+    font-size: 5em;
+    color: #FFEA8C;
+    position: relative;
+    left: 50%;
+    top: 5%;
+    transform:translate(-50%,-5%);
+    letter-spacing: 0.3px;
+    text-align: center;
+    width: 90%;
+}
+
+.title11 {
+    font-family: 'Microgramma';
+    font-size: 5em;
+    color: #FFEA8C;
+    position: relative;
+    left: 50%;
+    top: 5%;
+    transform:translate(-50%,-5%);
+    letter-spacing: 0.3px;
+    text-align: center;
+    width: 90%;
+}
+
+.title13 {
+    font-family: 'Microgramma';
+    font-size: 5em;
+    color: #FFEA8C;
+    position: relative;
+    left: 50%;
+    top: 5%;
+    transform:translate(-50%,-5%);
+    letter-spacing: 0.3px;
+    text-align: center;
+    width: 90%;
+}
+
 .image {
     width: 864px;
     height: 472px;
@@ -154,4 +281,218 @@
     left: 50%;
     top: 35%;
     transform: translate(-50%, -35%);
+}
+
+.image8 {
+    width: 960px;
+    height: 540px;
+    background: url(../images/s6gwknuycqjc1.gif) center no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 50%;
+    top: 35%;
+    transform: translate(-50%, -35%);
+}
+
+.image11 {
+    width: 540px;
+    height: 300px;
+    background: url(../images/CaliforniaScienceCenter_4-Taylor-Fuller-1080x600.jpg) center no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 50%;
+    top: 15%;
+    transform: translate(-50%, -15%);
+}
+
+.image12 {
+    width: 345.5px;
+    height: 512px;
+    background: url(../images/MV5BMTUxNzc0OTIxMV5BMl5BanBnXkFtZTgwNDI3NzU2NDE@._V1_FMjpg_UX1000_.jpg) center no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 10%;
+    top: 15%;
+    transform: translate(-10%, -15%);
+}
+
+.image13 {
+    width: 300px;
+    height: 450px;
+    background: url(../images/MV5BMTAyMjQ3OTAxMzNeQTJeQWpwZ15BbWU4MDU0NzA1MzAx._V1_FMjpg_UX1000_.jpg) center no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 45%;
+    top: -40%;
+    transform: translate(-45%, 40%);
+}
+
+.image14 {
+    width: 300px;
+    height: 450px;
+    background: url(../images/MV5BYzdjMDAxZGItMjI2My00ODA1LTlkNzItOWFjMDU5ZDJlYWY3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg) center no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 45%;
+    top: -40%;
+    transform: translate(-45%, 40%);
+}
+
+.image15 {
+    width: 300px;
+    height: 500px;
+    background: url(../images/ems.jpg) center no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 75%;
+    top: -155%;
+    transform: translate(-75%, 155%);
+}
+
+.image16 {
+    width: 345.5px;
+    height: 512px;
+    background: url(../images/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_.jpg) center no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 10%;
+    top: -150%;
+    transform: translate(-10%, 150%);
+}
+
+.image17 {
+    width: 400px;
+    height: 600px;
+    background: url(../images/pasted-image-0-802x1200.png) center no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 80%;
+    top: -250%;
+    transform: translate(-80%, 250%);
+}
+
+.image18 {
+    width: 550px;
+    height: 350px;
+    background: url(../images/IMG_1725.JPG) center no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 80%;
+    top: -60%;
+    transform: translate(-80%, 60%);
+}
+
+.image19 {
+    width: 300px;
+    height: 400px;
+    background: url(../images/IMG_8094.jpg) center no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 20%;
+    top: -118%;
+    transform: translate(-20%, 118%);
+}
+
+.text2 {
+    font-family: 'Microgramma';
+    font-size: 3em;
+    color: #FFEA8C;
+    position: relative;
+    left: 50%;
+    top: 30%;
+    transform:translate(-50%,-30%);
+    letter-spacing: 0.3px;
+    text-align: center;
+    width: 90%;
+}
+
+.text4 {
+    font-family: 'Microgramma';
+    font-size: 2em;
+    color: #FFEA8C;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform:translate(-50%,-50%);
+    letter-spacing: 0.3px;
+    text-align: center;
+    width: 93%;
+}
+
+.text6 {
+    font-family: 'Microgramma';
+    font-size: 1.75em;
+    color: #FFEA8C;
+    position: relative;
+    left: 50%;
+    top: 30%;
+    transform:translate(-50%,-30%);
+    letter-spacing: 0.3px;
+    text-align: center;
+    width: 90%;
+}
+
+.text7 {
+    font-family: 'Microgramma';
+    font-size: 1.75em;
+    color: #FFEA8C;
+    position: relative;
+    left: 50%;
+    top: 30%;
+    transform:translate(-50%,-30%);
+    letter-spacing: 0.3px;
+    text-align: center;
+    width: 90%;
+}
+
+.text9 {
+    font-family: 'Microgramma';
+    font-size: 1.75em;
+    color: #FFEA8C;
+    position: relative;
+    left: 50%;
+    top: 30%;
+    transform:translate(-50%,-30%);
+    letter-spacing: 0.3px;
+    text-align: center;
+    width: 90%;
+}
+
+.text10 {
+    font-family: 'Microgramma';
+    font-size: 1.75em;
+    color: #FFEA8C;
+    position: relative;
+    left: 50%;
+    top: 30%;
+    transform:translate(-50%,-30%);
+    letter-spacing: 0.3px;
+    text-align: center;
+    width: 90%;
+}
+
+.text11 {
+    font-family: 'Microgramma';
+    font-size: 1.75em;
+    color: #FFEA8C;
+    position: relative;
+    left: 50%;
+    top: 15%;
+    transform:translate(-50%,-15%);
+    letter-spacing: 0.3px;
+    text-align: center;
+    width: 90%;
+}
+
+.text13 {
+    font-family: 'Microgramma';
+    font-size: 1.72em;
+    color: #FFEA8C;
+    position: relative;
+    left: 50%;
+    top: 85%;
+    transform:translate(-50%,-85%);
+    letter-spacing: 0.3px;
+    text-align: center;
+    width: 90%;
 }

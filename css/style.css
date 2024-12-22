@@ -94,6 +94,13 @@
     position: relative;
 }
 
+.first14 {
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    position: relative;
+}
+
 .title {
     font-family: 'Microgramma';
     font-size: 5em;
@@ -495,4 +502,22 @@
     letter-spacing: 0.3px;
     text-align: center;
     width: 90%;
+}
+
+.video-container {
+    position: relative;
+    width: 80%; /* Adjust container width */
+    max-width: 800px; /* Maximum width for the video */
+    margin: 20px auto; /* Center the video */
+    border: 5px solid #333; /* Add a border */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden; /* Ensure rounded corners are visible */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
+    top: 20%;
+    transform:translate(0%,-20%);
+}
+
+.video-container iframe {
+    width: 100%; /* Full width of the container */
+    height: 450px; /* Default height */
 }

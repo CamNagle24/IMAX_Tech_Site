@@ -14,7 +14,7 @@ img, iframe {
 
 html, body {
     margin: 0;
-    padding: 0;
+    padding: 2;
     width: 100%;
     background: black;
     overflow-x: hidden;
@@ -57,11 +57,12 @@ html, body {
 }
 
 .content-image {
-    width: 90%;
+    width: 100%;
     max-width: 900px;
     height: auto;
     margin: 2rem auto;
     display: block;
+    object-fit: contain; /* ensures it scales correctly */
 }
 
 .content-image.portrait {
@@ -146,6 +147,13 @@ html, body {
 .image18,
 .image19 {
     min-height: 300px;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding: 4rem 2rem;
 }
 
 

@@ -3,506 +3,115 @@
     src: url(../fonts/Microgramma-D-Bold-Extended.ttf) format("truetype");
 }
 
-.first {
-    width: 100vw;
-    height: 100vh;
-    background: black;
-    position: relative;
+* {
+    box-sizing: border-box;
 }
 
-.first2 {
-    width: 100vw;
-    height: 100vh;
-    background: black;
-    position: relative;
+img, iframe {
+    max-width: 100%;
+    height: auto;
 }
 
-.first3 {
-    width: 100vw;
-    height: 100vh;
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
     background: black;
-    position: relative;
+    overflow-x: hidden;
 }
 
-.first4 {
-    width: 100vw;
-    height: 100vh;
+.first,
+.first2,
+.first3,
+.first4,
+.first5,
+.first6,
+.first7,
+.first8,
+.first9,
+.first10,
+.first12,
+.first14 {
+    min-height: 100vh;
+    padding: 4rem 1rem;
     background: black;
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-.first5 {
-    width: 100vw;
-    height: 100vh;
-    background: black;
-    position: relative;
+.title,
+.title2,
+.title3,
+.title4,
+.title5,
+.title6,
+.title7,
+.title8,
+.title9,
+.title10,
+.title11,
+.title13 {
+    font-size: clamp(2rem, 5vw, 5rem);
 }
 
-.first6 {
-    width: 100vw;
-    height: 100vh;
-    background: black;
-    position: relative;
+.content-image {
+    width: 90%;
+    max-width: 900px;
+    height: auto;
+    margin: 2rem auto;
+    display: block;
 }
 
-.first7 {
-    width: 100vw;
-    height: 100vh;
-    background: black;
-    position: relative;
+.content-image.portrait {
+    max-width: 350px;
 }
 
-.first8 {
-    width: 100vw;
-    height: 100vh;
-    background: black;
-    position: relative;
+.text2,
+.text4,
+.text6,
+.text7,
+.text9,
+.text10,
+.text11,
+.text13 {
+    font-size: clamp(1rem, 2.5vw, 1.75rem);
+    line-height: 1.4;
 }
 
-.first9 {
-    width: 100vw;
-    height: 100vh;
-    background: black;
-    position: relative;
+.title,
+.title2,
+.title3,
+.title4,
+.title5,
+.title6,
+.title7,
+.title8,
+.title9,
+.title10,
+.title11,
+.title13,
+.text2,
+.text4,
+.text6,
+.text7,
+.text9,
+.text10,
+.text11,
+.text13 {
+    color: #FFEA8C;
+    font-family: 'Microgramma', sans-serif;
 }
 
-.first10 {
-    width: 100vw;
-    height: 100vh;
-    background: black;
-    position: relative;
-}
 
 .first11 {
-    width: 100vw;
-    height: 200vh;
-    background: black;
-    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 2rem;
+    padding: 4rem 2rem;
 }
 
-.first12 {
-    width: 100vw;
-    height: 100vh;
-    background: black;
-    position: relative;
-}
-
-.first13 {
-    width: 100vw;
-    height: 150vh;
-    background: black;
-    position: relative;
-}
-
-.first14 {
-    width: 100vw;
-    height: 100vh;
-    background: black;
-    position: relative;
-}
-
-.title {
-    font-family: 'Microgramma';
-    font-size: 5em;
-    color: #FFEA8C;
-    position: relative;
-    left: 50%;
-    top: 10%;
-    transform:translate(-50%,-10%);
-    letter-spacing: 0.3px;
-    text-align: center;
-    width: 90%;
-}
-
-.title2 {
-    font-family: 'Microgramma';
-    font-size: 5em;
-    color: #FFEA8C;
-    position: relative;
-    left: 50%;
-    top: 1%;
-    transform:translate(-50%,1%);
-    letter-spacing: 0.3px;
-    text-align: center;
-    width: 90%;
-}
-
-.title3 {
-    font-family: 'Microgramma';
-    font-size: 5em;
-    color: #FFEA8C;
-    position: relative;
-    left: 50%;
-    top: 1%;
-    transform:translate(-50%,1%);
-    letter-spacing: 0.3px;
-    text-align: center;
-    width: 90%;
-}
-
-.title4 {
-    font-family: 'Microgramma';
-    font-size: 5em;
-    color: #FFEA8C;
-    position: relative;
-    left: 50%;
-    top: 10%;
-    transform:translate(-50%,-10%);
-    letter-spacing: 0.3px;
-    text-align: center;
-    width: 90%;
-}
-
-.title5 {
-    font-family: 'Microgramma';
-    font-size: 5em;
-    color: #FFEA8C;
-    position: relative;
-    left: 50%;
-    top: 5%;
-    transform:translate(-50%,-5%);
-    letter-spacing: 0.3px;
-    text-align: center;
-    width: 90%;
-}
-
-.title6 {
-    font-family: 'Microgramma';
-    font-size: 5em;
-    color: #FFEA8C;
-    position: relative;
-    left: 50%;
-    top: 5%;
-    transform:translate(-50%,-5%);
-    letter-spacing: 0.3px;
-    text-align: center;
-    width: 90%;
-}
-
-.title7 {
-    font-family: 'Microgramma';
-    font-size: 5em;
-    color: #FFEA8C;
-    position: relative;
-    left: 50%;
-    top: 5%;
-    transform:translate(-50%,-5%);
-    letter-spacing: 0.3px;
-    text-align: center;
-    width: 90%;
-}
-
-.title8 {
-    font-family: 'Microgramma';
-    font-size: 5em;
-    color: #FFEA8C;
-    position: relative;
-    left: 50%;
-    top: 5%;
-    transform:translate(-50%,-5%);
-    letter-spacing: 0.3px;
-    text-align: center;
-    width: 90%;
-}
-
-.title9 {
-    font-family: 'Microgramma';
-    font-size: 5em;
-    color: #FFEA8C;
-    position: relative;
-    left: 50%;
-    top: 5%;
-    transform:translate(-50%,-5%);
-    letter-spacing: 0.3px;
-    text-align: center;
-    width: 90%;
-}
-
-.title10 {
-    font-family: 'Microgramma';
-    font-size: 5em;
-    color: #FFEA8C;
-    position: relative;
-    left: 50%;
-    top: 5%;
-    transform:translate(-50%,-5%);
-    letter-spacing: 0.3px;
-    text-align: center;
-    width: 90%;
-}
-
-.title11 {
-    font-family: 'Microgramma';
-    font-size: 5em;
-    color: #FFEA8C;
-    position: relative;
-    left: 50%;
-    top: 5%;
-    transform:translate(-50%,-5%);
-    letter-spacing: 0.3px;
-    text-align: center;
-    width: 90%;
-}
-
-.title13 {
-    font-family: 'Microgramma';
-    font-size: 5em;
-    color: #FFEA8C;
-    position: relative;
-    left: 50%;
-    top: 5%;
-    transform:translate(-50%,-5%);
-    letter-spacing: 0.3px;
-    text-align: center;
-    width: 90%;
-}
-
-.image {
-    width: 864px;
-    height: 472px;
-    background: url(../images/Imax_Screen.jpg) center no-repeat;
-    background-size: cover;
-    position: relative;
-    left: 50%;
-    top: 60%;
-    transform: translate(-50%, -60%);
-}
-
-.image2 {
-    width: 589px;
-    height: 600px;
-    background: url(../images/PrintSize.jpg) center no-repeat;
-    background-size: cover;
-    position: relative;
-    left: 50%;
-    top: 10%;
-    transform: translate(-50%, -10%);
-}
-
-.image3 {
-    width: 750px;
-    height: 524.375px;
-    background: url(../images/oppenheimerimax_2_small.jpg) center no-repeat;
-    background-size: cover;
-    position: relative;
-    left: 50%;
-    top: 35%;
-    transform: translate(-50%, -35%);
-}
-
-.image8 {
-    width: 960px;
-    height: 540px;
-    background: url(../images/s6gwknuycqjc1.gif) center no-repeat;
-    background-size: cover;
-    position: relative;
-    left: 50%;
-    top: 35%;
-    transform: translate(-50%, -35%);
-}
-
-.image11 {
-    width: 540px;
-    height: 300px;
-    background: url(../images/CaliforniaScienceCenter_4-Taylor-Fuller-1080x600.jpg) center no-repeat;
-    background-size: cover;
-    position: relative;
-    left: 50%;
-    top: 15%;
-    transform: translate(-50%, -15%);
-}
-
-.image12 {
-    width: 345.5px;
-    height: 512px;
-    background: url(../images/MV5BMTUxNzc0OTIxMV5BMl5BanBnXkFtZTgwNDI3NzU2NDE@._V1_FMjpg_UX1000_.jpg) center no-repeat;
-    background-size: cover;
-    position: relative;
-    left: 10%;
-    top: 15%;
-    transform: translate(-10%, -15%);
-}
-
-.image13 {
-    width: 300px;
-    height: 450px;
-    background: url(../images/MV5BMTAyMjQ3OTAxMzNeQTJeQWpwZ15BbWU4MDU0NzA1MzAx._V1_FMjpg_UX1000_.jpg) center no-repeat;
-    background-size: cover;
-    position: relative;
-    left: 45%;
-    top: -40%;
-    transform: translate(-45%, 40%);
-}
-
-.image14 {
-    width: 300px;
-    height: 450px;
-    background: url(../images/MV5BYzdjMDAxZGItMjI2My00ODA1LTlkNzItOWFjMDU5ZDJlYWY3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg) center no-repeat;
-    background-size: cover;
-    position: relative;
-    left: 45%;
-    top: -40%;
-    transform: translate(-45%, 40%);
-}
-
-.image15 {
-    width: 300px;
-    height: 500px;
-    background: url(../images/ems.jpg) center no-repeat;
-    background-size: cover;
-    position: relative;
-    left: 75%;
-    top: -155%;
-    transform: translate(-75%, 155%);
-}
-
-.image16 {
-    width: 345.5px;
-    height: 512px;
-    background: url(../images/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_.jpg) center no-repeat;
-    background-size: cover;
-    position: relative;
-    left: 10%;
-    top: -150%;
-    transform: translate(-10%, 150%);
-}
-
-.image17 {
-    width: 400px;
-    height: 600px;
-    background: url(../images/pasted-image-0-802x1200.png) center no-repeat;
-    background-size: cover;
-    position: relative;
-    left: 80%;
-    top: -250%;
-    transform: translate(-80%, 250%);
-}
-
-.image18 {
-    width: 550px;
-    height: 350px;
-    background: url(../images/IMG_1725.JPG) center no-repeat;
-    background-size: cover;
-    position: relative;
-    left: 80%;
-    top: -60%;
-    transform: translate(-80%, 60%);
-}
-
-.image19 {
-    width: 300px;
-    height: 400px;
-    background: url(../images/IMG_8094.jpg) center no-repeat;
-    background-size: cover;
-    position: relative;
-    left: 20%;
-    top: -118%;
-    transform: translate(-20%, 118%);
-}
-
-.text2 {
-    font-family: 'Microgramma';
-    font-size: 3em;
-    color: #FFEA8C;
-    position: relative;
-    left: 50%;
-    top: 30%;
-    transform:translate(-50%,-30%);
-    letter-spacing: 0.3px;
-    text-align: center;
-    width: 90%;
-}
-
-.text4 {
-    font-family: 'Microgramma';
-    font-size: 2em;
-    color: #FFEA8C;
-    position: relative;
-    left: 50%;
-    top: 50%;
-    transform:translate(-50%,-50%);
-    letter-spacing: 0.3px;
-    text-align: center;
-    width: 93%;
-}
-
-.text6 {
-    font-family: 'Microgramma';
-    font-size: 1.75em;
-    color: #FFEA8C;
-    position: relative;
-    left: 50%;
-    top: 30%;
-    transform:translate(-50%,-30%);
-    letter-spacing: 0.3px;
-    text-align: center;
-    width: 90%;
-}
-
-.text7 {
-    font-family: 'Microgramma';
-    font-size: 1.75em;
-    color: #FFEA8C;
-    position: relative;
-    left: 50%;
-    top: 30%;
-    transform:translate(-50%,-30%);
-    letter-spacing: 0.3px;
-    text-align: center;
-    width: 90%;
-}
-
-.text9 {
-    font-family: 'Microgramma';
-    font-size: 1.75em;
-    color: #FFEA8C;
-    position: relative;
-    left: 50%;
-    top: 30%;
-    transform:translate(-50%,-30%);
-    letter-spacing: 0.3px;
-    text-align: center;
-    width: 90%;
-}
-
-.text10 {
-    font-family: 'Microgramma';
-    font-size: 1.75em;
-    color: #FFEA8C;
-    position: relative;
-    left: 50%;
-    top: 30%;
-    transform:translate(-50%,-30%);
-    letter-spacing: 0.3px;
-    text-align: center;
-    width: 90%;
-}
-
-.text11 {
-    font-family: 'Microgramma';
-    font-size: 1.75em;
-    color: #FFEA8C;
-    position: relative;
-    left: 50%;
-    top: 15%;
-    transform:translate(-50%,-15%);
-    letter-spacing: 0.3px;
-    text-align: center;
-    width: 90%;
-}
-
-.text13 {
-    font-family: 'Microgramma';
-    font-size: 1.72em;
-    color: #FFEA8C;
-    position: relative;
-    left: 50%;
-    top: 85%;
-    transform:translate(-50%,-85%);
-    letter-spacing: 0.3px;
-    text-align: center;
-    width: 90%;
-}
 
 .video-container {
     position: relative;
@@ -519,5 +128,57 @@
 
 .video-container iframe {
     width: 100%; /* Full width of the container */
-    height: 450px; /* Default height */
+    aspect-ratio: 16 / 9;
+    height: auto;
+}
+
+.image,
+.image2,
+.image3,
+.image8,
+.image11,
+.image12,
+.image13,
+.image14,
+.image15,
+.image16,
+.image17,
+.image18,
+.image19 {
+    min-height: 300px;
+}
+
+
+@media (max-width: 768px) {
+
+    .image,
+    .image2,
+    .image3,
+    .image8,
+    .image11,
+    .image12,
+    .image13,
+    .image14,
+    .image15,
+    .image16,
+    .image17,
+    .image18,
+    .image19 {
+        position: static;
+        transform: none;
+        margin: 2rem auto;
+    }
+
+    .text2,
+    .text4,
+    .text6,
+    .text7,
+    .text9,
+    .text10,
+    .text11,
+    .text13 {
+        position: static;
+        transform: none;
+        margin-top: 2rem;
+    }
 }

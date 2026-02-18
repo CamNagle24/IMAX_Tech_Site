@@ -27,6 +27,12 @@ html, body {
     background: black;
 }
 
+.camera-image {
+    width: 40vw;
+    height: 40vh;
+    object-fit: contain;
+}
+
 .first,
 .first2,
 .first3,
@@ -166,6 +172,37 @@ html, body {
     padding: 4rem 2rem;
 }
 
+label {
+    font-family: 'Microgramma', sans-serif;
+    color: #FFEA8C;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+input {
+    font-family: 'Microgramma', sans-serif;
+    color: #FFEA8C;
+    background: black;
+    border: 2px solid #FFEA8C;
+    padding: 0.75rem 1rem;
+    font-size: 1.25rem;
+    margin-top: 1rem;
+    outline: none;
+}
+
+#feet,
+#cost {
+    margin-top: 1rem;
+    font-family: 'Microgramma', sans-serif;
+    color: #FFEA8C;
+    font-size: 1.5rem;
+}
+
+.movie-info {
+    margin: 2rem auto;
+    padding: 2rem;
+}
 
 @media (max-width: 768px) {
 
